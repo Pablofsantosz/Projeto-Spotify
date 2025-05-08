@@ -91,3 +91,52 @@ const App2 = () => <h1>ola mundo</h1>;
     
 //Componentes recebem "Props"
     //Props   = passagem de argumentos e parametros para definir uma diferenças entre commponentes onde por exemplo na main tem dois conpontes um com "Artistas populares" de titulo e outro com outro titulo usamos o props  , como componetes sao funções é como se fosse os parametros que a funções recebem
+
+
+
+ /* {items === 5 ? (
+          <>
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+          </>
+        ) : (
+          <>
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+          </>
+        )} */
+
+
+
+
+/*<div className="item-list__container">
+  { 
+    // Cria um array com a quantidade de itens especificada pela prop 'items'
+    // Exemplo: se items = 5 → cria um array com 5 posições
+
+    Array(items)
+
+      // Preenche o array vazio com 'undefined' (ou qualquer valor),
+      // isso é necessário porque o .map() não funciona em posições "vazias"
+      // Exemplo: [undefined, undefined, undefined, undefined, undefined]
+      .fill()
+
+      // Para cada elemento do array, renderiza um <SingleItem />
+      // O resultado será a renderização de exatamente 'items' SingleItems
+      .map(() => (
+        <SingleItem />
+      )) 
+  }
+</div>
+*/
