@@ -91,6 +91,12 @@ const App2 = () => <h1>ola mundo</h1>;
     
 //Componentes recebem "Props"
     //Props   = passagem de argumentos e parametros para definir uma diferenças entre commponentes onde por exemplo na main tem dois conpontes um com "Artistas populares" de titulo e outro com outro titulo usamos o props  , como componetes sao funções é como se fosse os parametros que a funções recebem
+    // <div className="item-list__container">
+    // {Array(items)
+    // .fill()
+    // .map((currentValue,index)=>(
+    // <SingleItem key={`${title}--${index} `}/>
+    // ))}
 
 
 
