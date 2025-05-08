@@ -18,8 +18,6 @@ const ItemList = () => {
             <SingleItem/>
             <SingleItem/>
             <SingleItem/>
-    
-             
             </div>
     </div>
   )
