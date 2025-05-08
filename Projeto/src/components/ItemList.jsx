@@ -15,8 +15,13 @@ const ItemList = ({ title, items }) => {
 
       <div className="item-list__container">
         {artistArray.filter((currentValue,index) => index<items )
-        .map((currentValue,index)=>(
-        <SingleItem key={`${title}--${index} `}/>
+        .map((curretObj,index)=>(
+        <SingleItem 
+        id={curretObj.id}
+        name={curretObj.name}
+        image={curretObj.image}
+        banner={curretObj.banner}
+        key={`${title}--${index} `}/>
         ))}
       </div>
     </div>
