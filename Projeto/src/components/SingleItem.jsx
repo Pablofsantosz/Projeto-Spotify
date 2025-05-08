@@ -4,7 +4,7 @@ import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 
 const SingleItem = ({id,name,image,banner,artist }) => {
   return (
-     <div className="single-item">
+     <a href='/' className="single-item">
                     <div className="single-item__div-image-button">
                       <div className="single-item__div-image">
                         <img
@@ -28,9 +28,10 @@ const SingleItem = ({id,name,image,banner,artist }) => {
                         </p>
                       </div>
         
-                      <p className="single-item__type">{artist == undefined ? "Artista" : artist}</p>
+                      <p className="single-item__type">
+                        {artist ? artist : "Artista"}</p>
                     </div>
-                  </div>
+                  </a>
   )
 }
 

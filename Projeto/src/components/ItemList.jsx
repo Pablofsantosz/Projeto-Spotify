@@ -3,12 +3,12 @@ import SingleItem from './SingleItem';
 import { artistArray } from '../assets/database/artists';
 import { songsArray } from '../assets/database/songs';
 
-const ItemList = ({ title, items ,itemsArray}) => {
+const ItemList = ({ title, items ,itemsArray, path}) => {
   return (
     <div className="item-list">
       <div className="item-list__header">
         <h2>{title} populares</h2>
-        <a className="item-list__link" href="/">
+        <a  href ={path} className="item-list__link" >
           Mostrar tudo
         </a>
       </div>

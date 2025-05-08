@@ -8,9 +8,17 @@ const Main = () => {
   return (
     <div className="main">
 
-        <ItemList title ="Artistas" items={5} itemsArray ={artistArray}/>
+        <ItemList 
+        title ="artists" 
+        items={5} itemsArray 
+        ={artistArray} 
+        path ="/Artists"/>
 
-        <ItemList  title= "Músicas" items={10} itemsArray ={songsArray}/>
+        <ItemList  
+        title= "Músicas" 
+        items={10} 
+        itemsArray 
+        ={songsArray} path ="/songs"/>
     </div>
   );
 };
