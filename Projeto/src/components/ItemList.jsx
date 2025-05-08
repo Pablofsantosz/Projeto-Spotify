@@ -14,7 +14,8 @@ const ItemList = ({ title, items }) => {
       </div>
 
       <div className="item-list__container">
-        {artistArray .map((currentValue,index)=>(
+        {artistArray.filter((currentValue,index) => index<items )
+        .map((currentValue,index)=>(
         <SingleItem key={`${title}--${index} `}/>
         ))}
       </div>
