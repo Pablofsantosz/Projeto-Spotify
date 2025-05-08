@@ -9,16 +9,21 @@ const Main = () => {
     <div className="main">
 
         <ItemList 
-        title ="artists" 
+        title ="Artistas" 
         items={5} itemsArray 
         ={artistArray} 
-        path ="/Artists"/>
+        path ="/artists"
+        idPath ="/artist"
+        />
 
         <ItemList  
         title= "Músicas" 
         items={10} 
         itemsArray 
-        ={songsArray} path ="/songs"/>
+        ={songsArray} 
+        path ="/songs"
+        idPath ="/song"
+        />
     </div>
   );
 };
