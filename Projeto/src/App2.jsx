@@ -146,3 +146,10 @@ const App2 = () => <h1>ola mundo</h1>;
   }
 </div>
 */
+
+
+
+// Spread operator
+    // Copia dos valores dentro de um obj
+    // ex: const newObj = {...Obj} ele vai copiar apenas os valores 
+    // ...
