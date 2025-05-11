@@ -36,6 +36,9 @@ const App2 = () => <h1>ola mundo</h1>;
 // Forma de nomear COMPONENTES(PASCALCASE)
 // Nomeaçaõ de variavel, funcao...
     // camelCase
+  
+//Nomeação de classes
+  //kebab-case
     
 
 
