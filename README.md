@@ -1,11 +1,14 @@
 # 🎧 Spotify Clone com React
 
-Uma réplica do Spotify desenvolvida com foco em aprendizado e prática de desenvolvimento web moderno. Este projeto simula a interface e funcionalidades básicas do Spotify, utilizando React com Vite, Node.js, FontAwesome e tecnologias web padrão.
+Uma réplica visual e funcional da interface do Spotify, desenvolvida com foco em aprendizado de tecnologias web modernas.
+
+Este projeto simula uma plataforma de streaming de música, permitindo ao usuário navegar por músicas, artistas, acessar detalhes individuais e interagir com um player estilizado.
+
 
 
 ## 🚀 Tecnologias Utilizadas
 
-<p align="center">
+<p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" />
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" width="50" />
@@ -21,6 +24,68 @@ Uma réplica do Spotify desenvolvida com foco em aprendizado e prática de desen
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" />
 </p>
 
+##  Funcionalidades
+
+✅ Página Inicial com destaques de artistas e músicas  
+✅ Página de Artistas com listagem e navegação individual  
+✅ Página de Músicas com botão "Ver mais" para carregamento progressivo  
+✅ Detalhamento de Artista e Música com imagem e informações  
+✅ Player com controles de navegação entre faixas simuladas  
+✅ Navegação SPA (Single Page Application) com React Router  
+✅ Componentização e reutilização de elementos (ex: listas, itens, player)  
+
+
+---
+
+
+
+
+
+# Como Rodar o Projeto
+
+### `Clone repositorio:`
+
+```powershell
+git clone https://github.com/Pablofsantosz/Projeto-Spotify.git
+```
+
+#### _Open the terminal_
+
+### Acesse a pasta do projeto:
+
+```powershell
+cd "projeto" 
+```
+### Instale as dependências:
+
+```powershell
+npm install
+```
+### Instale os pacotes adicionais:
+```powershell
+nnpm install react-router-dom
+
+```
+```powershell
+npm install --save @fortawesome/fontawesome-svg-core
+```
+
+```powershell
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/free-regular-svg-icons
+npm install --save @fortawesome/free-brands-svg-icons
+```
+
+```powershell
+npm install --save @fortawesome/react-fontawesome@latest
+```
+### Inicie o projeto:
+```powershell
+npm run dev
+```
+
+
+
 
 
 ## 📸 Telas do Projeto
@@ -28,8 +93,6 @@ Uma réplica do Spotify desenvolvida com foco em aprendizado e prática de desen
 ### 🏠 Página Inicial(Home Page)
 
 ![image](https://github.com/user-attachments/assets/c0b92760-6b01-4fea-939e-e422de3e37f2)
-
-
 
 ---
 
@@ -54,4 +117,6 @@ Uma réplica do Spotify desenvolvida com foco em aprendizado e prática de desen
 ![image](https://github.com/user-attachments/assets/04eb076c-a3a2-4281-a841-7b4377b15160)
 
 
-
+### Aprimoramentos Futuros
+#Integração com Backend (Node.js + Express)
+-Criar uma API REST para gerenciar os dados de músicas, artistas e playlists de forma dinâmica
