@@ -1,14 +1,52 @@
 //Arquivo de comentarios
 
-import React from 'react'
+// import React from 'react'
 
-const App2 = () => {
-  return (
-    <div>App2</div>
-  )
-}
+// const App2 = () => {
+//   return (
+//     <div>App2</div>
+//   )
+// }
 
-export default App2
+// export default App2
+
+
+
+// Explicação: Diferença entre fazer o front-end com HTML puro e com React
+
+/*
+====================================================
+HTML puro:
+====================================================
+- Cria página estática.
+- Lista de artistas/músicas escrita manualmente com <div>, <img>, <p>.
+- Para adicionar/remover artista, precisa editar o HTML na mão.
+- Não existe componentização ou reaproveitamento de código.
+- Se precisar mostrar 50 artistas, terá que copiar e colar 50 blocos.
+- Difícil de manter e atualizar quando o projeto cresce.
+*/
+
+/*
+====================================================
+React:
+====================================================
+- Divide a tela em componentes reutilizáveis (ex: CardArtista, ListaArtistas).
+- Dados dos artistas ficam em um array de objetos.
+- Usa .map() para percorrer o array e renderizar cada card automaticamente.
+- Para adicionar/remover artista, só muda o array → a interface se atualiza sozinha.
+- Interface atualiza automaticamente quando dados mudam (reatividade).
+- Código mais organizado, fácil de manter e escalar.
+*/
+
+/*
+====================================================
+Resumo:
+====================================================
+React = Conecta dados + interface automaticamente → Atualiza sozinho.
+HTML puro = Tudo manual → Se muda o dado, também precisa mudar a interface na mão.
+*/
+
+
 //rafce(comando) que cria uma funtion arrow == react arrow function componet export 
     //Maneira rapida de criar nosso componetes
 
