@@ -43,7 +43,7 @@ Este projeto simula uma plataforma de streaming de música, permitindo ao usuár
 
 # Como Rodar o Projeto
 
-### `Clone repositorio:`
+### `Clone o repositorio:`
 
 ```powershell
 git clone https://github.com/Pablofsantosz/Projeto-Spotify.git
